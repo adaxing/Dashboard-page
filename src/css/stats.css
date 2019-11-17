@@ -1,0 +1,46 @@
+.employ-stats {
+	padding: 20px 15px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    min-width: 0;
+    font-size: .875rem;
+    margin-top: 30px;
+    background: #fff;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+    margin-bottom: 30px;
+    border-radius: 6px;
+    flex-direction: column;
+    text-align: left;
+}
+
+.stats-head {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	background: linear-gradient(60deg, #ffa726, #fb8c00);
+	box-shadow: 0 12px 20px -10px rgba(255, 152, 0, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(255, 152, 0, 0.2);
+	padding: 15px;
+	margin-top: -40px;
+	margin-left: 10px;
+	border-radius: 3px;
+	color: white;
+}
+
+.stats-table {
+	display: table;
+	border-spacing: 0;
+	width: 100%;
+    border-collapse: collapse;
+    margin-top: 24px;
+}
+.stats-head-table {
+	color: #ffa726;
+}
+.stats-row {
+	display: table-row;
+	height: 48px;
+	outline: none;
+	border-bottom: 1px solid #dddddd;
+    border-collapse: collapse;
+}

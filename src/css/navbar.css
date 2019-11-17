@@ -1,0 +1,17 @@
+.root {
+    flexGrow: 1;
+ },
+
+.grow {
+	flexGrow: 1;
+}
+
+.MuiTypography-root-73 {
+	text-decoration: none;
+}
+
+.menuButton {
+	marginLeft: -12;
+	marginRight: 20;
+}
+

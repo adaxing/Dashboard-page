@@ -1,0 +1,53 @@
+.list-card {
+	display: flex;
+	width: 100%;
+}
+.cards{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    box-shadow: 4px 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    background: #fff;
+    margin-right: 30px;
+}
+
+.chart-icons {
+	padding: 25px;
+	margin-left: 15px;
+	margin-top: -15px;
+	margin-right: 20px;
+	border-radius: 5px;
+	display: block;
+	height: 150px;
+}
+
+.chart-content {
+	text-align: left;
+	padding-left: 15px;
+	color: #999999;
+}
+
+.chart-content h3 {
+	color: #3C4858;
+}
+
+.chart-more {
+	color: #999999;
+}
+.chart-sicon {
+	transform: scale(0.7);
+}
+.chart-more a {
+	text-decoration: none;
+	color: #999999;
+	text-align: left;
+	font-size: 12px;
+	margin-left: -5px;
+
+}
